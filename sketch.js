@@ -23,7 +23,7 @@ let colores_g = ["#3366ccaa", "#dc3912aa", "#ff9900aa", "#109618aa", "#990099aa"
 
 let countryCode= 'us';
 let url1 = `https://newsapi.org/v2/top-headlines?country=${countryCode}&apiKey=c17c183c988b461fbc73bd7a48d8e868`;
-let url2='http://newsapi.org/v2/everything?q=from=2020-12-10&to=2020-12-14&sortBy=popularity&countryCode=cn&apiKey=c17c183c988b461fbc73bd7a48d8e868'
+let url2='https://newsapi.org/v2/everything?q=from=2020-12-10&to=2020-12-14&sortBy=popularity&countryCode=cn&apiKey=c17c183c988b461fbc73bd7a48d8e868'
 let popularity_data;
 let key_data;
 let imgUrl_pop;
